@@ -1,0 +1,33 @@
+body{
+  background-image: url("space.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  margin: 400px 0;
+  font-size: 30px;
+  color: white;
+}
+
+.notFound{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header, footer, .parraf{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  margin: 0;
+}
+
+.btn{
+  background: none;
+  border: 3px solid white;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 17px;
+}
